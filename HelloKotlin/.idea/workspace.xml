@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46974cbc-5e2e-4c59-9dd0-2d0f57a386b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FancyInfoProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersonInfoProvider.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Main3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Main3Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -37,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Kotlin.Main3Kt">
+  <component name="RunManager" selected="Kotlin.PersonInfoProviderKt">
     <configuration name="Main2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloKotlin" />
       <option name="VM_PARAMETERS" />
@@ -77,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonInfoProviderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HelloKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="PersonInfoProviderKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PersonInfoProviderKt" />
         <item itemvalue="Kotlin.Main3Kt" />
         <item itemvalue="Kotlin.Main2Kt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -99,29 +117,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581459918800">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581533246216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581459918800" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581459918799">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581533246216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581459918799" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581459918799">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581533246216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581459918799" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581459918800">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581533246216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581459918800" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1581456686690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581456686690" />
-    <state x="470" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581439519675">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581527810509">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581439519675" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581527810509" />
+    <state x="470" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581530349006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581530349006" />
+    <state x="866" y="57" width="684" height="525" maximized="true" key="dock-window-1" timestamp="1581533690851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="866" y="57" width="684" height="525" maximized="true" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581533690851" />
   </component>
 </project>
