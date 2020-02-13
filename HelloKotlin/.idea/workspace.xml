@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46974cbc-5e2e-4c59-9dd0-2d0f57a386b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FancyInfoProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonInfoProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EntityFactory.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/BasicInfoProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/BasicInfoProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/FancyInfoProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/FancyInfoProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Main3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Main3Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/PersonInfoProvider$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/PersonInfoProvider$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/PersonInfoProviderKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/PersonInfoProviderKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonInfoProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonInfoProvider.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -41,7 +43,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunManager" selected="Kotlin.PersonInfoProviderKt">
+  <component name="RunManager" selected="Kotlin.EntityFactoryKt">
+    <configuration name="EntityFactoryKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HelloKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="EntityFactoryKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloKotlin" />
       <option name="VM_PARAMETERS" />
@@ -96,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EntityFactoryKt" />
         <item itemvalue="Kotlin.PersonInfoProviderKt" />
         <item itemvalue="Kotlin.Main3Kt" />
         <item itemvalue="Kotlin.Main2Kt" />
@@ -117,22 +133,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581533246216">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1581555388685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581533246216">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581555388685" />
+    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1581555388685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581533246216">
+    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581555388685" />
+    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1581555388685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581533246216">
+    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581555388685" />
+    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1581555388685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581533246216" />
+    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581555388685" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1581456686690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

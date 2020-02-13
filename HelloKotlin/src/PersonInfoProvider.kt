@@ -44,7 +44,16 @@ open class BasicInfoProvider: PersonInfoProvider, SessionInfoProvider{
 
 fun main(){
 //    val provider = BasicInfoProvider()
-    val provider = FancyInfoProvider()
+//    val provider = FancyInfoProvider()
+
+    //Object Expression: Allows you to create a anonymous inner class, so you don't need to create a new name class
+    // So it might be useful for a ClickListener if you are working as an android developer
+    val provider = object : PersonInfoProvider{
+        override val providerInfo: String
+            get() = "New Info Provider"
+
+        fun getSessionId() = "id"
+    }
 
     provider.printInfo(Person())
     provider.getSessionId()
